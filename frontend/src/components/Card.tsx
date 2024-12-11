@@ -7,8 +7,6 @@ import {
   Twitter,
   Youtube,
 } from "lucide-react";
-import axios from "axios";
-import { BACKEND_URL } from "../config";
 
 interface TypeIcons {
   [key: string]: ReactElement;

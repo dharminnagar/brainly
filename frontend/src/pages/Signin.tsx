@@ -26,6 +26,7 @@ export const Signin = () => {
       alert("Logged in successfully");
       navigate("/dashboard");
     } catch (error) {
+      //@ts-ignore
       alert("Failed to log in\n" + error?.request.response);
       console.log(error);
     }

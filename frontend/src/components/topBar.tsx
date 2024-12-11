@@ -40,6 +40,7 @@ export const Buttons = ({ setModalOpen }: addContentButtonProps) => {
           console.log(res);
         });
     } catch (error) {
+      //@ts-ignore
       alert("Failed to share brain\n" + error?.request.response);
       console.log(error);
     }

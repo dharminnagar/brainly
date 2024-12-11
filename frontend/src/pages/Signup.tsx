@@ -23,6 +23,7 @@ export const Signup = () => {
 
       navigate("/login");
     } catch (error) {
+      //@ts-ignore
       alert("Failed to sign up\n" + error?.request.response);
       console.log(error);
     }

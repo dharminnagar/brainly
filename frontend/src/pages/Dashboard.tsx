@@ -12,7 +12,7 @@ export function Dashboard() {
 
   useEffect(() => {
     if (!localStorage.getItem("token")) {
-      navigate("/signin");
+      navigate("/login");
     }
   }, []);
 
